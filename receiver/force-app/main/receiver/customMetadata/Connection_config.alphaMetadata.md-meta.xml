@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>alphaMetadata</label>
+    <protected>true</protected>
+    <values>
+        <field>Client_id__c</field>
+        <value xsi:type="xsd:string">3MVG9Rr0EZ2YOVMbev7oS7puHS5VGy3Lt8VH1IkUvuGepgMynVg14O5b6czeT_CPgPsfMXXIHBHCDEj4jNgUK</value>
+    </values>
+    <values>
+        <field>Secret_id__c</field>
+        <value xsi:type="xsd:string">35B149A5D1E663AF34F8FA78088F7B49A3843E5190EF5763BDFA9344A18002D0</value>
+    </values>
+</CustomMetadata>

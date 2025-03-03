@@ -1,0 +1,19 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" >
+    <aura:attribute name="chartPosition" type="Integer" default="0"></aura:attribute>
+    <aura:attribute name="chartCount" type="Integer" default="3"></aura:attribute>
+    <div>
+        <div style="width:100%; display:flex; flex-direction:row; justify-content:center; align-items:center; position:relative;">
+            <div style="display:flex; flex-direction:row; justify-content:space-between; position:absolute;width:100%; z-index:1;">
+                <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; width: 10%; height:100%; "> <lightning:buttonIcon aura:id="leftButton" variant="bare" iconClass="dark" iconName="utility:chevronleft" onclick="{!c.handleLeft}" disabled="true"></lightning:buttonIcon></div>
+                <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; width: 10%; height:100%; "> <lightning:buttonIcon aura:id="rightButton" variant="bare" iconClass="dark" iconName="utility:chevronright" onclick="{!c.handleRight}"></lightning:buttonIcon></div>
+            </div>
+            <div class="visible">
+                <div aura:id="componentWrapper" class="componentWrapper">
+                    <div style="width:33.33%"><c:kpi_charts_profilesPie recordId="{!v.recordId}"></c:kpi_charts_profilesPie></div>
+                    <div style="width:33.33%"><c:kpi_charts_geography recordId="{!v.recordId}"></c:kpi_charts_geography></div>
+                    <div style="width:33.33%"><c:kpi_charts_segmentation recordId="{!v.recordId}"></c:kpi_charts_segmentation></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>

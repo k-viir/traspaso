@@ -1,0 +1,31 @@
+---
+domain: salesforce.component
+stages:
+  staticAnalysis:
+    params:
+      pmdApex:
+        version: 6
+      skipSonar: false
+      sonar:
+        qualityProfile: ether.salesforce.component
+        qualityGate: ether.salesforce
+  functionalTesting:
+    skip: true
+    params:
+      webDriverIo:
+        configFile: config/suite.saucelabs.conf.js
+  deploy:
+    dependencies:
+      chartGenerator:
+        type: salesforce-package1
+        id: 04t5G000003zgYI
+        timeout: 20
+branches:
+  release:
+    stages:
+      publish:
+        skip: true
+  master:
+    stages:
+      publish:
+        skip: true

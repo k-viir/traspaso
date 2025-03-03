@@ -1,0 +1,18 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_SecondChart">
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="chartData" type="Object" access="public"></aura:attribute>
+    <aura:attribute name="auxRecordId" type="String" access="public"></aura:attribute>
+    <aura:attribute name="pageReference" type="Object"/>
+    <aura:attribute name="reportId" type="String" access="public"></aura:attribute>
+    <aura:attribute name="referenceDate" type="String" access="public"></aura:attribute>
+    <lightning:navigation aura:id="navService"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <div class="slds-card" style="padding:5%;">
+        <aura:if isTrue="{!v.chartConfiguration}">
+            <chgn:Chart_Generator JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+            <aura:set attribute="else">
+                {!$Label.eext.No_data}
+            </aura:set>
+        </aura:if>
+    </div>
+</aura:component>

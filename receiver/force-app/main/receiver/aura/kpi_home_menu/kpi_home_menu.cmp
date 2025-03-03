@@ -1,0 +1,50 @@
+<aura:component controller="KPI_Menu_Controller" implements="flexipage:availableForAllPageTypes,force:appHostable" access="global">
+    <!-- Atributos -->
+    <aura:attribute name="records" type="Object[]"/>
+    <aura:attribute name="searchTerm" type="Date" />
+    <aura:attribute name="lpPicklist" type="String" default="CIB" access="global"
+                    description="Choose the Org name: 'CIB', 'Peru Enterprise', 'Peru Retail', 'Mexico Enterprise', 'Mexico Retail', 'Client Solutions (Enterprise)', 'Argentina Enterprise/Retail' , 'Colombia Enterprise' , 'Colombia Retail', 'Maxmistral España (Enterprise)', 'España Retail'" />
+    <aura:attribute name="firstRecordId" type="String" default=""/>
+    <aura:attribute name="listViewUrl" type="String" default="" access="global"/>
+    <aura:attribute name="userListViewUrl" type="String" default="" access="global"/>
+
+    <!-- Manejar cambios en el campo de búsqueda -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <!-- Card con los botones y la lista de registros -->
+    <article class="slds-card" style="height:460px;">
+        <div class="slds-card__body">
+            <!-- Botones centrados -->
+            <div class="slds-text-align_center slds-m-bottom_medium">
+                <button class="slds-button slds-button_neutral" onclick="{!c.navigateToFirstRecord}">{!$Label.eext.kpi_menu_detail}</button>
+                <a href="{!v.userListViewUrl}" class="slds-button slds-button_neutral">{!$Label.eext.kpi_menu_user_list}</a>
+            </div>
+
+            <!-- Campo de búsqueda -->
+            <div class="search-container" style="margin-bottom: 30px; padding: 0 20px;">
+                <lightning:input label="{!$Label.eext.kpi_search_by}" type="date" value="{!v.searchTerm}" onchange="{!c.handleSearchChange}" class="search-bar" style="width: 100%;"/>
+            </div>
+
+            <!-- Lista de registros -->
+            <aura:iteration items="{!v.records}" var="record" indexVar="index">
+                <div class="slds-box slds-grid slds-align_absolute-center slds-p-around_small list-item-custom" onclick="{!c.navigateToRecord}" data-id="{!record.Id}" style="width: calc(100% - 40px); margin: 0 auto 5px;">
+                    <!-- Icono estándar de Salesforce -->
+                    <lightning:icon iconName="standard:choice" size="medium" class="slds-m-right_small"/>
+
+                    <!-- Información del registro -->
+                    <div class="slds-grid slds-wrap slds-grow">
+                        <div class="slds-col slds-truncate">
+                            <p class="slds-truncate__text">{!record.eext__Last_connection__c}</p>
+                            <p class="slds-truncate__text">{!record.Name}</p>
+                        </div>
+                    </div>
+                </div>
+            </aura:iteration>
+
+            <!-- Ajuste de margen superior para subir el botón -->
+            <div class="slds-text-align_center slds-m-top_medium">
+                <a href="{!v.listViewUrl}" class="slds-button">{!$Label.eext.kpi_menu_view_full}</a>
+            </div>
+        </div>
+    </article>
+</aura:component>

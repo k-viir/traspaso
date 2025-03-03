@@ -1,0 +1,34 @@
+.THIS .card-custom {
+  height: 470px; /* Altura total del componente */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Para ocultar el contenido que sobresalga */
+}
+
+.THIS .slds-card__body {
+  padding: 15px;
+  overflow-y: auto; /* Añade scroll si el contenido es largo */
+}
+
+.THIS .slds-button_neutral {
+  margin-right: 10px; /* Ajuste el espacio entre los botones */
+}
+
+.THIS .list-item-custom {
+  height: 50px; /* Ajustar esta altura para que sea más pequeña que la barra de búsqueda */
+  display: flex;
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.THIS .search-bar {
+  height: 38px; /* Altura de la barra de búsqueda */
+}
+
+.THIS .slds-truncate__text {
+  font-size: 0.875rem; /* Ajusta el tamaño de la fuente si es necesario */
+}
+
+.THIS .search-container {
+  margin-bottom: 10px; /* Espacio debajo de la barra de búsqueda */
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Alpha metadata</label>
+    <protected>false</protected>
+    <values>
+        <field>Local_user__c</field>
+        <value xsi:type="xsd:string">conn app user</value>
+    </values>
+    <values>
+        <field>Endpoint_url__c</field>
+        <value xsi:type="xsd:string">client solutions external url</value>
+    </values>
+</CustomMetadata>

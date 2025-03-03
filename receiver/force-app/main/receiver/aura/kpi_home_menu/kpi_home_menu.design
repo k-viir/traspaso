@@ -1,0 +1,7 @@
+<design:component>
+    <design:attribute name="lpPicklist" label="Button name"
+      datasource="CIB, Peru Retail, Peru Enterprise, Mexico Retail, Mexico Seguros, Mexico Enterprise, Client Solutions (Enterprise), Argentina Enterprise/Retail, Colombia Enterprise, Colombia Retail, Maxmistral España (Enterprise), España Retail,Argentina Seguros,Portugal,Mexico Openpay"
+      default="CIB" />
+    <design:attribute name="listViewUrl" label="List View URL" default="" />
+    <design:attribute name="userListViewUrl" label="User List View URL" default="" />
+</design:component>

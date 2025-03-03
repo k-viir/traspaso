@@ -1,0 +1,16 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_Chart_Controller">
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="chartData" type="Object" access="public"></aura:attribute>
+    <aura:attribute name="auxRecordId" type="String" access="public"></aura:attribute>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <div class="slds-card" style="padding:3%;">
+        <aura:if isTrue="{!v.chartConfiguration}">
+            <aura:if isTrue="{!v.chartData.differences.length}">
+                <chgn:Chart_Generator JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+            </aura:if>
+            <aura:set attribute="else">
+                {!$Label.eext.No_data}
+            </aura:set>
+        </aura:if>
+    </div>
+</aura:component>

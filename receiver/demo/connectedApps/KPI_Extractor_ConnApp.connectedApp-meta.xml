@@ -1,0 +1,5 @@
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>eext__KPI_Extractor_ConnApp</developerName>
+    <label>KPI Receiver ConnApp</label>
+    <version>1.0</version>
+</ConnectedApp>

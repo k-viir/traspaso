@@ -1,0 +1,27 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_Visits_Charts">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <!-- <aura:method name="updateChart" -->
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="average" default="1" type="Integer" access="public"></aura:attribute>
+    <aura:attribute name="kpiValues" type="List" access="public"></aura:attribute>
+    <aura:attribute name="year" type="String" access="public"></aura:attribute>
+    <aura:attribute name="month" type="String" access="public"></aura:attribute>
+    <aura:registerEvent name="chartRefreshEvent" type="chgn:chartRefreshEvent"></aura:registerEvent>
+    <aura:method name="updateChart">
+        <aura:attribute name="yearValue" type="String"></aura:attribute>
+        <aura:attribute name="monthValue" type="String"></aura:attribute>
+    </aura:method>
+    <aura:if isTrue="{!v.chartConfiguration}">
+        <div style="display:flex; width:100%; position: relative">
+            <div style="position:absolute; right:1%; top:5%; z-index:1; color:rgb(177, 177, 177)"><p>{!$Label.c.VisitKpi_Average}: {!v.average}%</p></div>
+            <div style="width:100%">
+                <chgn:Chart_Generator canvasId="monthChartCanvas" JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+            </div>
+        </div>
+        <aura:set attribute="else">
+            <div style="display:flex; width:100%; position:relative; justify-content:center; align-items:center;">
+                <p>{!$Label.c.VisitKpi_NoData}</p>
+            </div>
+        </aura:set>
+    </aura:if>
+</aura:component>

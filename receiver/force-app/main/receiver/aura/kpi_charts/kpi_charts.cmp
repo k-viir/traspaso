@@ -1,0 +1,12 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_SecondChart">
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="chartData" type="Object" access="public"></aura:attribute>
+    <aura:attribute name="auxRecordId" type="String" access="public"></aura:attribute>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <aura:if isTrue="{!v.chartConfiguration}">
+        <chgn:Chart_Generator JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+        <aura:set attribute="else">
+            No data to display
+        </aura:set>
+    </aura:if>
+</aura:component>

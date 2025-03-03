@@ -1,0 +1,4 @@
+force-app/README.md
+**/jsconfig.json
+**/.eslintrc.json
+force-app/main/extractor

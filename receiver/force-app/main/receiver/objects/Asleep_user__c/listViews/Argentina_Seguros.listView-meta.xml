@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Argentina_Seguros</fullName>
+    <columns>NAME</columns>
+    <columns>eext__Status__c</columns>
+    <columns>eext__Last_login__c</columns>
+    <columns>eext__License__c</columns>
+    <columns>eext__Profile__c</columns>
+    <columns>eext__BBVA_User__c</columns>
+    <columns>eext__Email__c</columns>
+    <columns>eext__Username__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>eext__User_organization__c</field>
+        <operation>equals</operation>
+        <value>Argentina Seguros</value>
+    </filters>
+    <label>Argentina Seguros</label>
+</ListView>

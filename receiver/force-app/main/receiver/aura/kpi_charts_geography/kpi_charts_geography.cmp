@@ -1,0 +1,30 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_SecondChart">
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="geographyChartData" type="Object" access="public"></aura:attribute>
+    <aura:attribute name="auxRecordId" type="String" access="public"></aura:attribute>
+    <aura:attribute name="pageReference" type="Object"/>
+    <aura:attribute name="reportId" type="String" access="public"></aura:attribute>
+    <aura:attribute name="referenceDate" type="String" access="public"></aura:attribute>
+    <aura:attribute name="filterValue" type="String" default="{!$Label.c.Status_active}" access="public"></aura:attribute>
+    <aura:attribute name="geographyLabels" type="String[]" access="public"></aura:attribute>
+    <aura:attribute name="canvasId" type="String" access="public"></aura:attribute>
+    <lightning:navigation aura:id="navService"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <div class="slds-card" style="background-color: white;
+    display: flex;
+    flex-direction: column; padding:5%; row-gap:1rem;">
+        <aura:if isTrue="{!v.chartConfiguration}">
+            <chgn:Chart_Generator canvasId="{!v.canvasId}" JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+            <aura:set attribute="else">
+                {!$Label.c.No_data}
+            </aura:set>
+        </aura:if>
+        <div style="display:flex; flex-direction:row; justify-content:space-evenly; align-items:center;">
+            <lightning:button aura:id="filterButtons" label="{!$Label.c.Status_active}" onclick="{!c.handleFilters}" />
+            <lightning:button aura:id="filterButtons" label="{!$Label.c.Status_asleep}" onclick="{!c.handleFilters}" />
+            <lightning:button aura:id="filterButtons" label="{!$Label.c.Status_never}" onclick="{!c.handleFilters}" />
+        </div>
+
+    </div>
+
+</aura:component>

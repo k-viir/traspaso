@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Package_version__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Object that represents a version of a package</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Object that represents a version of a package</inlineHelpText>
+    <label>Package version</label>
+    <referenceTo>Package_version__c</referenceTo>
+    <relationshipLabel>Organization versions</relationshipLabel>
+    <relationshipName>Organization_versions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

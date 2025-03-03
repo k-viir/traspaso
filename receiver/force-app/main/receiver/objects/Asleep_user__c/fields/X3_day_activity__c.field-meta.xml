@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_day_activity__c</fullName>
+    <description>This field represents literally the activity result of logins for 3 days (estimated through predetermined ranges)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field represents literally the activity result of logins for 3 days (estimated through predetermined ranges)</inlineHelpText>
+    <label>3 day activity</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No activity</fullName>
+                <default>false</default>
+                <label>No activity</label>
+            </value>
+            <value>
+                <fullName>Low activity</fullName>
+                <default>false</default>
+                <label>Low activity</label>
+            </value>
+            <value>
+                <fullName>Medium activity</fullName>
+                <default>false</default>
+                <label>Medium activity</label>
+            </value>
+            <value>
+                <fullName>High activity</fullName>
+                <default>false</default>
+                <label>High activity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

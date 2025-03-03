@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Used_licenses__c</fullName>
+    <description>Used licenses in the organization</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used licenses in the organization</inlineHelpText>
+    <label>Used licenses</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,580 @@
+"Name","eext__Installed_organization__r.eext__ExternalId__c","eext__Newest_package_version__r.eext__ExternalId__c","eext__Package_version__r.eext__ExternalId__c","eext__Version_differences__c"
+"Argentina Enterprise/Retail Modal Template 1.5","a0o7Q000007vgqfQAA","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"Argentina Enterprise/Retail Dynamic Buttons Panel 1.74","a0o7Q000007vgqfQAA","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"Argentina Enterprise/Retail Dynamic Table Display 2.45","a0o7Q000007vgqfQAA","a0r7Q000005MVOHQA4","a0r7Q000005MVOHQA4","- Features:
+- Bugfixes:
+ 	 Changed the name of the location variable to loc in jQuery.resource"
+"Argentina Enterprise/Retail Visit Kit 5.81","a0o7Q000007vgqfQAA","a0r7Q000005MVe4QAG","a0r7Q000005MVU5QAO","- Features:
+- Bugfixes:
+ 	 Corrected hard coded text on Launch meeting success/error title toasts"
+"Argentina Enterprise/Retail Dynamic Form 1.36","a0o7Q000007vgqfQAA","a0r7Q000005MVMIQA4","a0r7Q000005MVVOQA4","- Features:
+ 	 Added fields to field config object to choose whether sections and subsections are expanded by default.
+Keep field value when visibility conditions change
+- Bugfixes:
+ 	 Fixed error when saving records that have child relationships and certain conditions
+ 	 Update Standard currency component
+Fixed currency format
+Fixed Default Value functionality in LIST type fields"
+"Argentina Enterprise/Retail Quick View Cards 4.42","a0o7Q000007vgqfQAA","a0r7Q000005MVLOQA4","a0r7Q000005MVLOQA4",""
+"Argentina Enterprise/Retail Template Builder 2.13","a0o7Q000007vgqfQAA","a0r7Q000005MVYGQA4","a0r7Q000005MVYGQA4","- Features:
+- Bugfixes:"
+"Argentina Enterprise/Retail Calendar View 1.0","a0o7Q000007vgqfQAA","a0r7Q000005MVabQAG","a0r7Q000005MVabQAG",""
+"Argentina Enterprise/Retail Guidance for Success 1.4","a0o7Q000007vgqfQAA","a0r7Q000005MVLCQA4","a0r7Q000005MVLCQA4",""
+"Argentina Enterprise/Retail Google Calendar Availability 1.5","a0o7Q000007vgqfQAA","a0r7Q000005MVaXQAW","a0r7Q000005MVaXQAW",""
+"Argentina Enterprise/Retail Chart Generator 1.3","a0o7Q000007vgqfQAA","a0r7Q000005MVPTQA4","a0r7Q000005MVPOQA4","- Features:
+ 	 Updated Chart.js library to version 3.91.
+- Bugfixes:
+ 	 Fixed max length on tick labels."
+"Colombia Enterprise Product Form 1.44","a0o7Q000007vh0BQAQ","a0r7Q000005MVdGQAW","a0r7Q000005MVNbQAO","- Features:
+ 	 Improved confirm modal so its salesforce like
+ 	 The allLoaded variable of the GBL_Opportunity_Products_cmp component has become global.
+The GBL_ShowModal_evt event has also become global
+- Bugfixes:
+ 	 Fixed problem of mixed data when clicking on different products rapidly.
+Fixed lack of minimun, maximum and default values control for rows on complex item tables
+ 	 Increased height of product editing mode"
+"Colombia Enterprise Alerts Module 2.4","a0o7Q000007vh0BQAQ","a0r7Q000005MVL3QAO","a0r7Q000005MVL3QAO",""
+"Colombia Enterprise Modal Template 1.5","a0o7Q000007vh0BQAQ","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"Colombia Enterprise Contacts 1.0","a0o7Q000007vh0BQAQ","a0r7Q000005MVPiQAO","a0r7Q000005MVPYQA4","- Features:
+- Bugfixes:"
+"Colombia Enterprise Hangout 1.0","a0o7Q000007vh0BQAQ","a0r7Q000005MVPdQAO","a0r7Q000005MVPdQAO",""
+"Colombia Enterprise Dynamic Buttons Panel 1.74","a0o7Q000007vh0BQAQ","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"Colombia Enterprise Branch 1.2","a0o7Q000007vh0BQAQ","a0r7Q000005MVQ7QAO","a0r7Q000005MVNAQA4","- Features:
+- Bugfixes:"
+"Colombia Enterprise Visit Kit 5.74","a0o7Q000007vh0BQAQ","a0r7Q000005MVe4QAG","a0r7Q000005MVRQQA4","- Features:
+ 	 Added new field to 'Launch meeting validations' custom setting to control if 'add google meet room' checkbox displays only when visit channel is online
+        Changes required by the upgrade of Google Calendar Engine and Seeker components
+        Workflows has been migrated to Flows, because Workflows will be deprecated in future Salesforce releases
+- Bugfixes:
+ 	 Corrected hard coded text on Launch meeting success/error title toasts
+ 	 Fixed package installation error when certain features are included (Financial/health cloud apparently) and page layout used deprecated tags 'relatedContent' with 'whatId' field
+ 	 Fixed error about the buttons of button strip in firefox
+ 	 Fixed error when creating Attendees records
+        Security injection in some querys"
+"Colombia Enterprise Users 1.1","a0o7Q000007vh0BQAQ","a0r7Q000005MVMkQAO","a0r7Q000005MVPsQAO","- Features:
+ 	 Increased max length of field prof_position_type
+Updated project-scratch-def.json
+- Bugfixes:"
+"Colombia Enterprise Client Group Landing Page 1.4","a0o7Q000007vh0BQAQ","a0r7Q000005MVR5QAO","a0r7Q000005MVQlQAO","- Features:
+- Bugfixes:"
+"Colombia Enterprise Dynamic Form 1.39","a0o7Q000007vh0BQAQ","a0r7Q000005MVMIQA4","a0r7Q000005MVgPQAW","- Features:
+ 	 Added fields to field config object to choose whether sections and subsections are expanded by default.
+Keep field value when visibility conditions change
+- Bugfixes:
+ 	 Fixed error when saving records that have child relationships and certain conditions"
+"Colombia Enterprise Quick View Cards 4.42","a0o7Q000007vh0BQAQ","a0r7Q000005MVLOQA4","a0r7Q000005MVLOQA4",""
+"Colombia Enterprise Campaign 1.2","a0o7Q000007vh0BQAQ","a0r7Q000005MVMrQAO","a0r7Q000005MVXOQA4","- Features:
+- Bugfixes:"
+"Colombia Enterprise Component Wrapper 1.3","a0o7Q000007vh0BQAQ","a0r7Q000005MVb0QAG","a0r7Q000005MVb0QAG",""
+"Colombia Enterprise Non Clients 1.51","a0o7Q000007vh0BQAQ","a0r7Q000005MVfWQAW","a0r7Q000005MVZKQA4","- Features:
+- Bugfixes:"
+"Colombia Enterprise Message Bar 1.0","a0o7Q000007vh0BQAQ","a0r7Q000005MVVWQA4","a0r7Q000005MVVMQA4","- Features:
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+- Bugfixes:
+ 	 Fixed error when the message value arrives later than the message bar rendering
+ 	 Fixed error when the message value arrives later than the message bar rendering"
+"Colombia Enterprise Template Builder 1.7","a0o7Q000007vh0BQAQ","a0r7Q000005MVYGQA4","a0r7Q000005MVXnQAO","- Features:
+ 	 Added custom setting field 'Hide not editable fields' so these non editable fields hide when they are selected on the corresponding template builder field
+ 	 Changed footer buttons distribution
+ 	 Fixed footer separation with respect to modal.
+Independent scrolling on first and second screens.
+Spinners implementation to provide feedback to user when actions are being executed/ data is being loaded.
+On first screen for recipients and related content columns.
+On second screen between during transition and template rendering.
+Control to have at least un recipient to send the email.
+Optional validation through local class with respect to recipients, related content and email content.
+Control on button to send email to not send more than one.
+Disabled send button if no template is selected.
+Replaced cancel button for back button to enable going back to first screen.
+Custom messages on certain situations:
+When user fails validations on isUserAllowed Function.
+When there are no valid recipients.
+When there is no related content.
+Modal automatically closes when there are no templates available
+Posibility to set non editable email fields (Subject, Introduction, Salutation…)
+Default template in a folder.
+Trigger to validate default template ( auxiliar content on repository )
+General improvements on appearance (spaces and margins)
+UX general improvements
+Performance improvements and reduced server calls
+Improvements over failed send email control and handle email result function
+- Bugfixes:
+ 	 Fixed error when initiating component
+ 	 Fixed error when receiving an empty recipient category
+ 	 Fixed hardcoded string by custom label in error toast of handle email result.
+Component closes when calls result in error.
+Related context log with sent mail log"
+"Colombia Enterprise Account Plan 3.40","a0o7Q000007vh0BQAQ","a0r7Q000005S15pQAC","a0r7Q000005MVc8QAG","- Features:
+ 	 Improved UX question deletion process.
+    New cloning process for Account Plans, Waves and Account Plan Types.
+ 	 It has been included that when blocking and unblocking Account Plans the notifications are filtered by Account Plan Type.
+    The following process builders have been migrated to flows: Creation of Needs, Creation of Growth Drivers, Creation of Team Members.
+ 	 The functionality that made the closing of Account Plans after 6 months has been improved, to make it modifiable according to a custom setting.
+    We have updated the AP_BusinessPlanAccessHandler component and the creation of Growth Drivers and Needs has been modified in order to configure the necessary fields through a fieldset to make it compatible with busines plan package version 3.0 and higher.
+ 	 The way in which the form questions were stored has been improved, reducing the number of records needed. This means a decrease in the loading time of the form.
+    The way Periods update Account Plans has been improved. When changing the date, if the date is current and locked, it is automatically unlocked.
+    It has been made possible to choose the type of saving of the total/partial form at org level.
+- Bugfixes:
+ 	 Fix problem with deleting and editing questions.
+ 	 Fixed a problem in the GuidancesForSuccess Trigger Handler.
+    Some Flows that had reached their version limit have been renewed.
+ 	 The sending of notifications through Chatter, which previously only worked for CIB's ORG, has been fixed.
+    Account Plan record sharing has been fixed once the associated case validator is reassigned.
+    Notification to the validator of an Account Plan when it is sent to validate has been fixed.
+ 	 Modification of the Banker and Validator Permission Sets to restrict their access to different unnecessary fields.
+    Modified Account Plan trigger handler for the correct creation of Guidance For Success.
+ 	 Fixed a bug in Account_Plan_Banker permission set, which allows you to view all Account Plan records.
+ 	 Fixed a bug that prevented the insertion of unlocked Account Plans."
+"Colombia Enterprise PDF Previewer 1.0","a0o7Q000007vh0BQAQ","a0r7Q000005MVagQAG","a0r7Q000005MVagQAG",""
+"Colombia Enterprise Business Plan 2.0","a0o7Q000007vh0BQAQ","a0r7Q000005MVZOQA4","a0r7Q000005MVZ9QAO","- Features:
+- Bugfixes:"
+"Colombia Enterprise Guidance for Success 1.4","a0o7Q000007vh0BQAQ","a0r7Q000005MVLCQA4","a0r7Q000005MVLCQA4",""
+"Colombia Enterprise Chart Generator 1.31","a0o7Q000007vh0BQAQ","a0r7Q000005MVPTQA4","a0r7Q000005MVPTQA4",""
+"Colombia Retail Modal Template 1.5","a0o7Q000007vh0GQAQ","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"Colombia Retail Dynamic Buttons Panel 1.74","a0o7Q000007vh0GQAQ","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"Colombia Retail Dynamic Actions Engine 1.22","a0o7Q000007vh0GQAQ","a0r7Q000005MVaHQAW","a0r7Q000005PBIsQAO",""
+"Colombia Retail Branch 1.21","a0o7Q000007vh0GQAQ","a0r7Q000005MVQ7QAO","a0r7Q000005MVQ7QAO",""
+"Colombia Retail Visit Kit 5.78","a0o7Q000007vh0GQAQ","a0r7Q000005MVe4QAG","a0r7Q000005MVa2QAG","- Features:
+ 	 Added new field to 'Launch meeting validations' custom setting to control if 'add google meet room' checkbox displays only when visit channel is online
+- Bugfixes:
+ 	 Corrected hard coded text on Launch meeting success/error title toasts
+ 	 Fixed package installation error when certain features are included (Financial/health cloud apparently) and page layout used deprecated tags 'relatedContent' with 'whatId' field
+ 	 Fixed error about the buttons of button strip in firefox"
+"Colombia Retail Users 1.2","a0o7Q000007vh0GQAQ","a0r7Q000005MVMkQAO","a0r7Q000005MVMkQAO",""
+"Colombia Retail Dynamic Form 1.35","a0o7Q000007vh0GQAQ","a0r7Q000005MVMIQA4","a0r7Q000005MVNCQA4","- Features:
+ 	 Added fields to field config object to choose whether sections and subsections are expanded by default.
+Keep field value when visibility conditions change
+- Bugfixes:
+ 	 Fixed error when saving records that have child relationships and certain conditions
+ 	 Update Standard currency component
+Fixed currency format
+Fixed Default Value functionality in LIST type fields
+ 	 A display problem with currency type fields has been fixed"
+"Colombia Retail Quick View Cards 4.32","a0o7Q000007vh0GQAQ","a0r7Q000005MVLOQA4","a0r7Q000005MVTpQAO","- Features:
+ 	 Added field that enables edit posibility on each field through metadata record
+    Replaced standard datatable with custom with picklist support
+    Editable fields can be of type lookup
+    Picklist values can be of type lookup
+    Added corresponding buttons and visual adjustments
+ 	 Added field that enables edit posibility on each field through metadata record
+    Replaced standard datatable with custom with picklist support
+    Editable fields can be of type lookup
+    Picklist values can be of type lookup
+    Added corresponding buttons and visual adjustments
+ 	 Possibility to fire an event when closing the add modal.
+Improved general performance when initiating carousel.
+Improved general UX when initiating carousel
+ 	 Possibility to fire an event when closing the add modal.
+Improved general performance when initiating carousel.
+Improved general UX when initiating carousel
+- Bugfixes:
+ 	 Fixed simple mode error.
+Added toast message error incompatible functionalities on simple mode
+ 	 Fixed simple mode error.
+Added toast message error incompatible functionalities on simple mode
+ 	 Render Bug Fixes when component is inside dynamic forms component
+ 	 Render Bug Fixes when component is inside dynamic forms component
+ 	 Change to a darker color of the card selected in the component.
+Possibility to select two cards from different carousels.
+Possibility to select two rows from different carousels when in table mode
+ 	 Change to a darker color of the card selected in the component.
+Possibility to select two cards from different carousels.
+Possibility to select two rows from different carousels when in table mode
+ 	 The jQuery version has been updated to 3.6.0 to fix some vulnerabilities found with the old version of jQuery
+ 	 The jQuery version has been updated to 3.6.0 to fix some vulnerabilities found with the old version of jQuery"
+"Colombia Retail Message Bar 1.0","a0o7Q000007vh0GQAQ","a0r7Q000005MVVWQA4","a0r7Q000005MVVMQA4","- Features:
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+- Bugfixes:
+ 	 Fixed error when the message value arrives later than the message bar rendering
+ 	 Fixed error when the message value arrives later than the message bar rendering"
+"Colombia Retail Template Builder 2.12","a0o7Q000007vh0GQAQ","a0r7Q000005MVYGQA4","a0r7Q000005MVOqQAO","- Features:
+ 	 Added custom setting field 'Hide not editable fields' so these non editable fields hide when they are selected on the corresponding template builder field
+- Bugfixes:"
+"Colombia Retail Calendar View 1.0","a0o7Q000007vh0GQAQ","a0r7Q000005MVabQAG","a0r7Q000005MVabQAG",""
+"Colombia Retail Guidance for Success 1.4","a0o7Q000007vh0GQAQ","a0r7Q000005MVLCQA4","a0r7Q000005MVLCQA4",""
+"Colombia Retail Google Calendar Availability 1.5","a0o7Q000007vh0GQAQ","a0r7Q000005MVaXQAW","a0r7Q000005MVaXQAW",""
+"Peru Enterprise Check In/Out 1.2","a0o7Q000007vhCRQAY","a0r7Q000005MVRUQA4","a0r7Q000005MVRPQA4","- Features:
+- Bugfixes:"
+"Peru Enterprise Forecast (PPG) 3.1","a0o7Q000007vhCRQAY","a0r7Q000005MVNIQA4","a0r7Q000005MVQRQA4","- Features:
+- Bugfixes:"
+"Peru Enterprise Product Form 1.35","a0o7Q000007vhCRQAY","a0r7Q000005MVdGQAW","a0r7Q000005MVeYQAW","- Features:
+ 	 Improved confirm modal so its salesforce like
+ 	 The allLoaded variable of the GBL_Opportunity_Products_cmp component has become global.
+The GBL_ShowModal_evt event has also become global
+ 	 Inclusion of sections and components as ""Complex Section Item's"".
+    Visibility control of number, percent, currency, multiselect and checkbox fields in complex sections.
+    Visibility control of multiselect fields in simple sections
+ 	 Added regex validation pattern to Product Config items.
+Added regex validation pattern to Complex Sections items.
+Added Validation Pattern fields to permission set
+- Bugfixes:
+ 	 Fixed problem of mixed data when clicking on different products rapidly.
+Fixed lack of minimun, maximum and default values control for rows on complex item tables
+ 	 Increased height of product editing mode
+ 	 Duplicate fields in Mozilla. MAXMIX3-4513
+    (Detected in Table Row records) In LIST type fields, if it is set as not editable, when generating the record, the label is shown correctly in the form but the value of the label is saved in the table row record and not the API value of the field. This causes that, when saving the data, all the records are shown blank.
+    The fprd__Table_order_by__c field of Complex Section Item only works with text type field. If it is not text an error occurs when trying to apply a toLowerCase method to a data type other than String.
+    Error when the component tries to update the fields fprd_GBL_Visible_configurationsc,fprdGBL_Empty_visible_fieldsc and fprdGBL_All_fields_informed_c on the products of the opportunity and you do not have edit permissions on them. MAXMIX3-4520
+ 	 Lookup type fields not opening."
+"Peru Enterprise Modal Template 1.5","a0o7Q000007vhCRQAY","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"Peru Enterprise Dynamic Buttons Panel 1.74","a0o7Q000007vhCRQAY","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"Peru Enterprise Dynamic Table Display 2.39","a0o7Q000007vhCRQAY","a0r7Q000005MVOHQA4","a0r7Q000005MVOpQAO","- Features:
+ 	 Added posibility to resize columns when the option is enabled through table configuration field
+ 	 Added posibility to resize columns when the option is enabled through table configuration field
+ 	 It has been made possible to group by a field and sort at the same time by another field not included in the group
+ 	 Added new functionality to reference a related object, determining its API Name and a logical condition to choose the desired record
+ 	 Modification of the Dynamic Header functionality for use in Summary tables
+- Bugfixes:
+ 	 Changed the name of the location variable to loc in jQuery.resource
+ 	 Changed the name of the location variable to loc in jQuery.resource
+ 	 Fixed overflow visual bug when title is displayed on last row.
+ 	 Fixed overflow visual bug when title is displayed on last row.
+ 	 Fixed a bug that occurred in Firefox web browsers when applying a filter to tables dynamically
+ 	 The problem of ""Invalid Number Value"" shown in some Totals when some specific quantities are not filled, instead of filling with a ""0"", has been solved
+ 	 Upgrade of the jQuery library used in the package to 3.6.0."
+"Peru Enterprise Dynamic Actions Engine 1.22","a0o7Q000007vhCRQAY","a0r7Q000005MVaHQAW","a0r7Q000005PBIsQAO",""
+"Peru Enterprise Visit Kit 5.2","a0o7Q000007vhCRQAY","a0r7Q000005MVe4QAG","a0r7Q000005MVQrQAO","- Features:
+ 	 Added new field to 'Launch meeting validations' custom setting to control if 'add google meet room' checkbox displays only when visit channel is online
+        Changes required by the upgrade of Google Calendar Engine and Seeker components
+        Workflows has been migrated to Flows, because Workflows will be deprecated in future Salesforce releases
+- Bugfixes:
+ 	 Corrected hard coded text on Launch meeting success/error title toasts
+ 	 Fixed package installation error when certain features are included (Financial/health cloud apparently) and page layout used deprecated tags 'relatedContent' with 'whatId' field
+ 	 Fixed error about the buttons of button strip in firefox
+ 	 Fixed error when creating Attendees records
+        Security injection in some querys"
+"Peru Enterprise Client Group Landing Page 1.5","a0o7Q000007vhCRQAY","a0r7Q000005MVR5QAO","a0r7Q000005MVPZQA4","- Features:
+- Bugfixes:"
+"Peru Enterprise Dynamic Form 1.34","a0o7Q000007vhCRQAY","a0r7Q000005MVMIQA4","a0r7Q000005MVQoQAO","- Features:
+ 	 Added fields to field config object to choose whether sections and subsections are expanded by default.
+Keep field value when visibility conditions change
+- Bugfixes:
+ 	 Fixed error when saving records that have child relationships and certain conditions
+ 	 Update Standard currency component
+Fixed currency format
+Fixed Default Value functionality in LIST type fields
+ 	 A display problem with currency type fields has been fixed
+ 	 A bug where dynamic components weren't rendering correctly when collapsing/expanding sections has been fixed"
+"Peru Enterprise Quick View Cards 4.37","a0o7Q000007vhCRQAY","a0r7Q000005MVLOQA4","a0r7Q000005MVRuQAO","- Features:
+ 	 Added field that enables edit posibility on each field through metadata record
+    Replaced standard datatable with custom with picklist support
+    Editable fields can be of type lookup
+    Picklist values can be of type lookup
+    Added corresponding buttons and visual adjustments
+ 	 Added field that enables edit posibility on each field through metadata record
+    Replaced standard datatable with custom with picklist support
+    Editable fields can be of type lookup
+    Picklist values can be of type lookup
+    Added corresponding buttons and visual adjustments
+ 	 Possibility to fire an event when closing the add modal.
+Improved general performance when initiating carousel.
+Improved general UX when initiating carousel
+ 	 Possibility to fire an event when closing the add modal.
+Improved general performance when initiating carousel.
+Improved general UX when initiating carousel
+- Bugfixes:
+ 	 Fixed simple mode error.
+Added toast message error incompatible functionalities on simple mode
+ 	 Fixed simple mode error.
+Added toast message error incompatible functionalities on simple mode
+ 	 Render Bug Fixes when component is inside dynamic forms component
+ 	 Render Bug Fixes when component is inside dynamic forms component
+ 	 Change to a darker color of the card selected in the component.
+Possibility to select two cards from different carousels.
+Possibility to select two rows from different carousels when in table mode
+ 	 Change to a darker color of the card selected in the component.
+Possibility to select two cards from different carousels.
+Possibility to select two rows from different carousels when in table mode
+ 	 The jQuery version has been updated to 3.6.0 to fix some vulnerabilities found with the old version of jQuery
+ 	 The jQuery version has been updated to 3.6.0 to fix some vulnerabilities found with the old version of jQuery"
+"Peru Enterprise Component Wrapper 1.3","a0o7Q000007vhCRQAY","a0r7Q000005MVb0QAG","a0r7Q000005MVb0QAG",""
+"Peru Enterprise Non Clients 1.69","a0o7Q000007vhCRQAY","a0r7Q000005MVfWQAW","a0r7Q000005MVY3QAO","- Features:
+- Bugfixes:"
+"Peru Enterprise Message Bar 1.0","a0o7Q000007vhCRQAY","a0r7Q000005MVVWQA4","a0r7Q000005MVVMQA4","- Features:
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+- Bugfixes:
+ 	 Fixed error when the message value arrives later than the message bar rendering
+ 	 Fixed error when the message value arrives later than the message bar rendering"
+"Peru Enterprise Template Builder 1.2","a0o7Q000007vhCRQAY","a0r7Q000005MVYGQA4","a0r7Q000005MVLeQAO","- Features:
+ 	 Added custom setting field 'Hide not editable fields' so these non editable fields hide when they are selected on the corresponding template builder field
+ 	 Changed footer buttons distribution
+ 	 Fixed footer separation with respect to modal.
+Independent scrolling on first and second screens.
+Spinners implementation to provide feedback to user when actions are being executed/ data is being loaded.
+On first screen for recipients and related content columns.
+On second screen between during transition and template rendering.
+Control to have at least un recipient to send the email.
+Optional validation through local class with respect to recipients, related content and email content.
+Control on button to send email to not send more than one.
+Disabled send button if no template is selected.
+Replaced cancel button for back button to enable going back to first screen.
+Custom messages on certain situations:
+When user fails validations on isUserAllowed Function.
+When there are no valid recipients.
+When there is no related content.
+Modal automatically closes when there are no templates available
+Posibility to set non editable email fields (Subject, Introduction, Salutation…)
+Default template in a folder.
+Trigger to validate default template ( auxiliar content on repository )
+General improvements on appearance (spaces and margins)
+UX general improvements
+Performance improvements and reduced server calls
+Improvements over failed send email control and handle email result function
+ 	 Added the field Send_Custom_Email__c to the custom setting TemplateBuilderSettings__c to allow overwrite of local send email action
+- Bugfixes:
+ 	 Fixed error when initiating component
+ 	 Fixed error when receiving an empty recipient category
+ 	 Fixed hardcoded string by custom label in error toast of handle email result.
+Component closes when calls result in error.
+Related context log with sent mail log"
+"Peru Enterprise Account Plan 3.50","a0o7Q000007vhCRQAY","a0r7Q000005S15pQAC","a0r7Q000005MVcDQAW","- Features:
+ 	 Improved UX question deletion process.
+    New cloning process for Account Plans, Waves and Account Plan Types.
+ 	 It has been included that when blocking and unblocking Account Plans the notifications are filtered by Account Plan Type.
+    The following process builders have been migrated to flows: Creation of Needs, Creation of Growth Drivers, Creation of Team Members.
+ 	 The functionality that made the closing of Account Plans after 6 months has been improved, to make it modifiable according to a custom setting.
+    We have updated the AP_BusinessPlanAccessHandler component and the creation of Growth Drivers and Needs has been modified in order to configure the necessary fields through a fieldset to make it compatible with busines plan package version 3.0 and higher.
+- Bugfixes:
+ 	 Fix problem with deleting and editing questions.
+ 	 Fixed a problem in the GuidancesForSuccess Trigger Handler.
+    Some Flows that had reached their version limit have been renewed.
+ 	 The sending of notifications through Chatter, which previously only worked for CIB's ORG, has been fixed.
+    Account Plan record sharing has been fixed once the associated case validator is reassigned.
+    Notification to the validator of an Account Plan when it is sent to validate has been fixed.
+ 	 Modification of the Banker and Validator Permission Sets to restrict their access to different unnecessary fields.
+    Modified Account Plan trigger handler for the correct creation of Guidance For Success.
+ 	 Fixed a bug in Account_Plan_Banker permission set, which allows you to view all Account Plan records."
+"Peru Enterprise PDF Previewer 1.0","a0o7Q000007vhCRQAY","a0r7Q000005MVagQAG","a0r7Q000005MVagQAG",""
+"Peru Enterprise Business Plan 2.1","a0o7Q000007vhCRQAY","a0r7Q000005MVZOQA4","a0r7Q000005MVZEQA4","- Features:
+- Bugfixes:"
+"Peru Enterprise Commercial Alerts 1.4","a0o7Q000007vhCRQAY","a0r7Q000005MVXwQAO","a0r7Q000005MVXwQAO",""
+"Peru Enterprise Guidance for Success 1.3","a0o7Q000007vhCRQAY","a0r7Q000005MVLCQA4","a0r7Q000005MVL7QAO","- Features:
+- Bugfixes:"
+"Peru Enterprise Custom Team 1.31","a0o7Q000007vhCRQAY","a0r7Q000005MVVHQA4","a0r7Q000005MVPFQA4","- Features:
+- Bugfixes:"
+"Peru Enterprise Chart Generator 1.3","a0o7Q000007vhCRQAY","a0r7Q000005MVPTQA4","a0r7Q000005MVPOQA4","- Features:
+ 	 Updated Chart.js library to version 3.91.
+- Bugfixes:
+ 	 Fixed max length on tick labels."
+"Peru_retail0 Forecast (PPG) 3.2","a0o7Q000007vhf9QAA","a0r7Q000005MVNIQA4","a0r7Q000005MVQWQA4","- Features:
+- Bugfixes:"
+"Peru_retail0 Product Form 1.44","a0o7Q000007vhf9QAA","a0r7Q000005MVdGQAW","a0r7Q000005MVNbQAO","- Features:
+ 	 Improved confirm modal so its salesforce like
+ 	 The allLoaded variable of the GBL_Opportunity_Products_cmp component has become global.
+The GBL_ShowModal_evt event has also become global
+- Bugfixes:
+ 	 Fixed problem of mixed data when clicking on different products rapidly.
+Fixed lack of minimun, maximum and default values control for rows on complex item tables
+ 	 Increased height of product editing mode"
+"Peru_retail0 Modal Template 1.5","a0o7Q000007vhf9QAA","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"Peru_retail0 Dynamic Buttons Panel 1.74","a0o7Q000007vhf9QAA","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"Peru_retail0 Dynamic Table Display 2.42","a0o7Q000007vhf9QAA","a0r7Q000005MVOHQA4","a0r7Q000005MVNxQAO","- Features:
+ 	 Added posibility to resize columns when the option is enabled through table configuration field
+ 	 Added posibility to resize columns when the option is enabled through table configuration field
+- Bugfixes:
+ 	 Changed the name of the location variable to loc in jQuery.resource
+ 	 Changed the name of the location variable to loc in jQuery.resource
+ 	 Fixed overflow visual bug when title is displayed on last row.
+ 	 Fixed overflow visual bug when title is displayed on last row.
+ 	 Fixed a bug that occurred in Firefox web browsers when applying a filter to tables dynamically"
+"Peru_retail0 Visit Kit 5.74","a0o7Q000007vhf9QAA","a0r7Q000005MVe4QAG","a0r7Q000005MVRQQA4","- Features:
+ 	 Added new field to 'Launch meeting validations' custom setting to control if 'add google meet room' checkbox displays only when visit channel is online
+        Changes required by the upgrade of Google Calendar Engine and Seeker components
+        Workflows has been migrated to Flows, because Workflows will be deprecated in future Salesforce releases
+- Bugfixes:
+ 	 Corrected hard coded text on Launch meeting success/error title toasts
+ 	 Fixed package installation error when certain features are included (Financial/health cloud apparently) and page layout used deprecated tags 'relatedContent' with 'whatId' field
+ 	 Fixed error about the buttons of button strip in firefox
+ 	 Fixed error when creating Attendees records
+        Security injection in some querys"
+"Peru_retail0 Template Builder 1.6","a0o7Q000007vhf9QAA","a0r7Q000005MVYGQA4","a0r7Q000005MVONQA4","- Features:
+ 	 Added custom setting field 'Hide not editable fields' so these non editable fields hide when they are selected on the corresponding template builder field
+ 	 Changed footer buttons distribution
+ 	 Fixed footer separation with respect to modal.
+Independent scrolling on first and second screens.
+Spinners implementation to provide feedback to user when actions are being executed/ data is being loaded.
+On first screen for recipients and related content columns.
+On second screen between during transition and template rendering.
+Control to have at least un recipient to send the email.
+Optional validation through local class with respect to recipients, related content and email content.
+Control on button to send email to not send more than one.
+Disabled send button if no template is selected.
+Replaced cancel button for back button to enable going back to first screen.
+Custom messages on certain situations:
+When user fails validations on isUserAllowed Function.
+When there are no valid recipients.
+When there is no related content.
+Modal automatically closes when there are no templates available
+Posibility to set non editable email fields (Subject, Introduction, Salutation…)
+Default template in a folder.
+Trigger to validate default template ( auxiliar content on repository )
+General improvements on appearance (spaces and margins)
+UX general improvements
+Performance improvements and reduced server calls
+Improvements over failed send email control and handle email result function
+ 	 Added the field Send_Custom_Email__c to the custom setting TemplateBuilderSettings__c to allow overwrite of local send email action
+- Bugfixes:
+ 	 Fixed error when initiating component
+ 	 Fixed error when receiving an empty recipient category
+ 	 Fixed hardcoded string by custom label in error toast of handle email result.
+Component closes when calls result in error.
+Related context log with sent mail log"
+"Peru_retail0 Calendar View 1.0","a0o7Q000007vhf9QAA","a0r7Q000005MVabQAG","a0r7Q000005MVabQAG",""
+"Peru_retail0 Guidance for Success 1.3","a0o7Q000007vhf9QAA","a0r7Q000005MVLCQA4","a0r7Q000005MVL7QAO","- Features:
+- Bugfixes:"
+"Peru_retail0 Google Calendar Availability 1.5","a0o7Q000007vhf9QAA","a0r7Q000005MVaXQAW","a0r7Q000005MVaXQAW",""
+"Peru_retail0 Chart Generator 1.3","a0o7Q000007vhf9QAA","a0r7Q000005MVPTQA4","a0r7Q000005MVPOQA4","- Features:
+ 	 Updated Chart.js library to version 3.91.
+- Bugfixes:
+ 	 Fixed max length on tick labels."
+"esbbvaretail--devt17 Modal Template 1.5","a0o7Q000007vr3oQAA","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"esbbvaretail--devt17 Dynamic Buttons Panel 1.74","a0o7Q000007vr3oQAA","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"esbbvaretail--devt17 Message Bar 1.0","a0o7Q000007vr3oQAA","a0r7Q000005MVVWQA4","a0r7Q000005MVVMQA4","- Features:
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+- Bugfixes:
+ 	 Fixed error when the message value arrives later than the message bar rendering
+ 	 Fixed error when the message value arrives later than the message bar rendering"
+"esbbvaretail--devt17 Chart Generator 1.3","a0o7Q000007vr3oQAA","a0r7Q000005MVPTQA4","a0r7Q000005MVPOQA4","- Features:
+ 	 Updated Chart.js library to version 3.91.
+- Bugfixes:
+ 	 Fixed max length on tick labels."
+"Client Solutions (Enterprise) Modal Template 1.5","a0o7Q000007vr3yQAA","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"Client Solutions (Enterprise) Real Time Notifications Display 3.0","a0o7Q000007vr3yQAA","a0r7Q000005MVOvQAO","a0r7Q000005MVOvQAO",""
+"Client Solutions (Enterprise) Chart Generator 1.31","a0o7Q000007vr3yQAA","a0r7Q000005MVPTQA4","a0r7Q000005MVPTQA4",""
+"CIB Product Form 1.44","a0o7Q000007vr3tQAA","a0r7Q000005MVdGQAW","a0r7Q000005MVNbQAO","- Features:
+ 	 Improved confirm modal so its salesforce like
+ 	 The allLoaded variable of the GBL_Opportunity_Products_cmp component has become global.
+The GBL_ShowModal_evt event has also become global
+- Bugfixes:
+ 	 Fixed problem of mixed data when clicking on different products rapidly.
+Fixed lack of minimun, maximum and default values control for rows on complex item tables
+ 	 Increased height of product editing mode"
+"CIB Alerts Module 1.8","a0o7Q000007vr3tQAA","a0r7Q000005MVL3QAO","a0r7Q000005MVTqQAO","- Features:
+- Bugfixes:"
+"CIB Modal Template 1.5","a0o7Q000007vr3tQAA","a0r7Q000005MVLvQAO","a0r7Q000005MVLvQAO",""
+"CIB Dynamic Buttons Panel 1.74","a0o7Q000007vr3tQAA","a0r7Q000005MVStQAO","a0r7Q000005MVStQAO",""
+"CIB Dynamic Table Display 2.35","a0o7Q000007vr3tQAA","a0r7Q000005MVOHQA4","a0r7Q000005MVMGQA4","- Features:
+ 	 Added posibility to resize columns when the option is enabled through table configuration field
+ 	 Added posibility to resize columns when the option is enabled through table configuration field
+ 	 It has been made possible to group by a field and sort at the same time by another field not included in the group
+ 	 Added new functionality to reference a related object, determining its API Name and a logical condition to choose the desired record
+ 	 Modification of the Dynamic Header functionality for use in Summary tables
+ 	 Add demo directory with scratchInit for demos purpose
+Add new permission set for Admin purpose
+- Bugfixes:
+ 	 Changed the name of the location variable to loc in jQuery.resource
+ 	 Changed the name of the location variable to loc in jQuery.resource
+ 	 Fixed overflow visual bug when title is displayed on last row.
+ 	 Fixed overflow visual bug when title is displayed on last row.
+ 	 Fixed a bug that occurred in Firefox web browsers when applying a filter to tables dynamically
+ 	 The problem of ""Invalid Number Value"" shown in some Totals when some specific quantities are not filled, instead of filling with a ""0"", has been solved
+ 	 Upgrade of the jQuery library used in the package to 3.6.0.
+ 	 Change error when att recordIdList is empty"
+"CIB Visit Kit 5.82","a0o7Q000007vr3tQAA","a0r7Q000005MVe4QAG","a0r7Q000005MVe4QAG","- Features:
+- Bugfixes:"
+"CIB Dynamic Form 1.31","a0o7Q000007vr3tQAA","a0r7Q000005MVMIQA4","a0r7Q000005MVgFQAW","- Features:
+ 	 Added fields to field config object to choose whether sections and subsections are expanded by default.
+Keep field value when visibility conditions change
+ 	 A feature has been added in the Dynamic_Form_Modal_cmp that shows a counter of the characters used and the maximum number of characters also for fields found in parent objects and related records
+ 	 A feature has been added in the Dynamic_Form_Modal_cmp that shows a counter of the characters used and the maximum number of characters that can be used in the textArea and LongtextArea fields when editing them
+- Bugfixes:
+ 	 Fixed error when saving records that have child relationships and certain conditions
+ 	 Update Standard currency component
+Fixed currency format
+Fixed Default Value functionality in LIST type fields
+ 	 A display problem with currency type fields has been fixed
+ 	 A bug where dynamic components weren't rendering correctly when collapsing/expanding sections has been fixed
+ 	 We have fixed a bug in the field visibility control. When the visibility of a field depends on several fields and among them there is one of type ""multiselect"", display errors occur"
+"CIB Quick View Cards 4.39","a0o7Q000007vr3tQAA","a0r7Q000005MVLOQA4","a0r7Q000005MVLTQA4","- Features:
+ 	 Added field that enables edit posibility on each field through metadata record
+    Replaced standard datatable with custom with picklist support
+    Editable fields can be of type lookup
+    Picklist values can be of type lookup
+    Added corresponding buttons and visual adjustments
+ 	 Possibility to fire an event when closing the add modal.
+Improved general performance when initiating carousel.
+Improved general UX when initiating carousel
+- Bugfixes:
+ 	 Fixed simple mode error.
+Added toast message error incompatible functionalities on simple mode
+ 	 Render Bug Fixes when component is inside dynamic forms component
+ 	 Change to a darker color of the card selected in the component."
+"CIB Campaign 1.3","a0o7Q000007vr3tQAA","a0r7Q000005MVMrQAO","a0r7Q000005MVMrQAO",""
+"CIB Real Time Notifications Display 3.0","a0o7Q000007vr3tQAA","a0r7Q000005MVOvQAO","a0r7Q000005MVOvQAO",""
+"CIB Component Wrapper 1.3","a0o7Q000007vr3tQAA","a0r7Q000005MVb0QAG","a0r7Q000005MVb0QAG",""
+"CIB Non Clients 1.73","a0o7Q000007vr3tQAA","a0r7Q000005MVfWQAW","a0r7Q000005MVfWQAW",""
+"CIB Message Bar 1.0","a0o7Q000007vr3tQAA","a0r7Q000005MVVWQA4","a0r7Q000005MVVMQA4","- Features:
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+ 	 Allow a component to open from the banner instead of just a link.
+    Allow banner text to be set in rich html (bold, underline, etc.)
+- Bugfixes:
+ 	 Fixed error when the message value arrives later than the message bar rendering
+ 	 Fixed error when the message value arrives later than the message bar rendering"
+"CIB Template Builder 1.7","a0o7Q000007vr3tQAA","a0r7Q000005MVYGQA4","a0r7Q000005MVXnQAO","- Features:
+ 	 Added custom setting field 'Hide not editable fields' so these non editable fields hide when they are selected on the corresponding template builder field
+ 	 Changed footer buttons distribution
+ 	 Fixed footer separation with respect to modal.
+Independent scrolling on first and second screens.
+Spinners implementation to provide feedback to user when actions are being executed/ data is being loaded.
+On first screen for recipients and related content columns.
+On second screen between during transition and template rendering.
+Control to have at least un recipient to send the email.
+Optional validation through local class with respect to recipients, related content and email content.
+Control on button to send email to not send more than one.
+Disabled send button if no template is selected.
+Replaced cancel button for back button to enable going back to first screen.
+Custom messages on certain situations:
+When user fails validations on isUserAllowed Function.
+When there are no valid recipients.
+When there is no related content.
+Modal automatically closes when there are no templates available
+Posibility to set non editable email fields (Subject, Introduction, Salutation…)
+Default template in a folder.
+Trigger to validate default template ( auxiliar content on repository )
+General improvements on appearance (spaces and margins)
+UX general improvements
+Performance improvements and reduced server calls
+Improvements over failed send email control and handle email result function
+- Bugfixes:
+ 	 Fixed error when initiating component
+ 	 Fixed error when receiving an empty recipient category
+ 	 Fixed hardcoded string by custom label in error toast of handle email result.
+Component closes when calls result in error.
+Related context log with sent mail log"
+"CIB Account Plan 3.60","a0o7Q000007vr3tQAA","a0r7Q000005S15pQAC","a0r7Q000005MVcNQAW","- Features:
+ 	 Improved UX question deletion process.
+    New cloning process for Account Plans, Waves and Account Plan Types.
+ 	 It has been included that when blocking and unblocking Account Plans the notifications are filtered by Account Plan Type.
+    The following process builders have been migrated to flows: Creation of Needs, Creation of Growth Drivers, Creation of Team Members.
+- Bugfixes:
+ 	 Fix problem with deleting and editing questions.
+ 	 Fixed a problem in the GuidancesForSuccess Trigger Handler.
+    Some Flows that had reached their version limit have been renewed.
+ 	 The sending of notifications through Chatter, which previously only worked for CIB's ORG, has been fixed.
+    Account Plan record sharing has been fixed once the associated case validator is reassigned.
+    Notification to the validator of an Account Plan when it is sent to validate has been fixed."
+"CIB PDF Previewer 1.0","a0o7Q000007vr3tQAA","a0r7Q000005MVagQAG","a0r7Q000005MVagQAG",""
+"CIB Pitch 1.5","a0o7Q000007vr3tQAA","a0r7Q000005MVUdQAO","a0r7Q000005MVUdQAO",""
+"CIB Commercial Offer 1.0","a0o7Q000007vr3tQAA","a0r7Q000005MVOhQAO","a0r7Q000005MVOhQAO",""
+"CIB Business Plan 3.12","a0o7Q000007vr3tQAA","a0r7Q000005MVZOQA4","a0r7Q000005MVZOQA4",""
+"CIB Guidance for Success 1.3","a0o7Q000007vr3tQAA","a0r7Q000005MVLCQA4","a0r7Q000005MVL7QAO","- Features:
+- Bugfixes:"
+"CIB Custom Team 1.31","a0o7Q000007vr3tQAA","a0r7Q000005MVVHQA4","a0r7Q000005MVPFQA4","- Features:
+- Bugfixes:"
+"CIB Chart Generator 1.3","a0o7Q000007vr3tQAA","a0r7Q000005MVPTQA4","a0r7Q000005MVPOQA4","- Features:
+ 	 Updated Chart.js library to version 3.91.
+- Bugfixes:
+ 	 Fixed max length on tick labels."

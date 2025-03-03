@@ -1,0 +1,11 @@
+{
+    "orgName": "enterprise extractor",
+    "adminEmail": "cavirjuyar.mejia.tech@bbva.com",
+    "edition": "Developer",
+    "language": "en_US",
+    "settings": {
+        "lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		}
+    }
+}

@@ -1,0 +1,33 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_Visits_Charts">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <aura:attribute name="yearOptions" type="List" access="public"/>
+    <aura:attribute name="quarterOptions" type="List" access="public"/>
+    <aura:attribute name="monthOptions" type="List" access="public"/>
+    <aura:attribute name="filteredMonthOptions" type="List" access="public"/>
+    <aura:attribute name="yearValue" type="String" access="public"></aura:attribute>
+    <aura:attribute name="monthValue" type="String" access="public"></aura:attribute>
+    <aura:attribute name="quarterValue" type="String" access="public"></aura:attribute>
+    <div style="background-color:rgba(255,255,255,0.7); padding: 15px 0;">
+        <aura:if isTrue="{! v.yearValue &amp;&amp; v.quarterValue &amp;&amp; v.monthValue }">
+            <div style="width:100%; display:flex; flex-direction:row; column-gap:15px; align-items:center; justify-content:center; margin-bottom: 15px">
+                <lightning:combobox aura:id="yearCombo" name="year" label="{!$Label.c.VisitKpi_Year}" value="{!v.yearValue}" options="{!v.yearOptions}" onchange="{!c.updateFilters}"/>
+                <lightning:combobox aura:id="quarterCombo" name="quarter" label="{!$Label.c.VisitKpi_Quarter}" value="{!v.quarterValue}" options="{!v.quarterOptions}" onchange="{!c.updateFilters}"/>
+                <lightning:combobox aura:id="monthCombo" name="month" label="{!$Label.c.VisitKpi_Month}" value="{!v.monthValue}" options="{!v.filteredMonthOptions}" onchange="{!c.updateFilters}"/>
+            </div>
+            <div style="display:flex; width:100%; justify-content:space-evenly">
+                <div style="width:45%">
+                    <c:kpi_quarterChart year="{!v.yearValue}" quarter="{!v.quarterValue}" aura:id="quarterChart"></c:kpi_quarterChart>
+                </div>
+                <div style="width:45%">
+                    <c:kpi_monthChart year="{!v.yearValue}" month="{!v.monthValue}" aura:id="monthChart"></c:kpi_monthChart>
+                </div>
+            </div>
+            <aura:set attribute="else">
+                <div style="display:flex; width:100%; position:relative; justify-content:center; align-items:center;">
+                    <p>{!$Label.c.VisitKpi_NoData}</p>
+                </div>
+            </aura:set>
+        </aura:if>
+    </div>
+
+</aura:component>

@@ -1,0 +1,22 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_Visits_Charts">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="average" default="1" type="Integer" access="public"></aura:attribute>
+    <aura:attribute name="kpiValues" type="List" access="public"></aura:attribute>
+    <aura:attribute name="recordId" type="String" access="public"></aura:attribute>
+    <aura:attribute name="extractVisitsKpi" type="Boolean" access="public"></aura:attribute>
+    <aura:if isTrue="{!v.chartConfiguration}">
+        <div style="display:flex; width:100%; position: relative">
+            <div style="padding: 1vh; position:absolute; right:1%; top:5%; z-index:1; color:rgb(177, 177, 177)"><p>{!$Label.c.VisitKpi_Average}: {!v.average}%</p></div>
+            <div style="width:100%">
+                <chgn:Chart_Generator JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+            </div>
+        </div>
+        <aura:set attribute="else">
+            <div style="display:flex; width:100%; position:relative; justify-content:center; align-items:center;">
+                <p>{!$Label.c.VisitKpi_NoData}</p>
+            </div>
+        </aura:set>
+
+    </aura:if>
+</aura:component>

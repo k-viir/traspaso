@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asleep_users__c</fullName>
+    <description>Number of users that havent logged in in the last 90 days</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of users that havent logged in in the last 90 days</inlineHelpText>
+    <label>Asleep users</label>
+    <summaryFilterItems>
+        <field>Asleep_user__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Asleep</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Asleep_user__c.License__c</field>
+        <operation>equals</operation>
+        <value>Salesforce</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Asleep_user__c.User_organization__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

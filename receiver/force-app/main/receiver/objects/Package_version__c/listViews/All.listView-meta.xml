@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Bugfix_description__c</columns>
+    <columns>Feature_description__c</columns>
+    <columns>Version_date__c</columns>
+    <columns>Version_name__c</columns>
+    <columns>Version_number__c</columns>
+    <columns>Package__c</columns>
+    <columns>Version_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All packages versions</label>
+</ListView>

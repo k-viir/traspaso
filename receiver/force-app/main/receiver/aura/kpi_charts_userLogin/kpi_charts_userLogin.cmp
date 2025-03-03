@@ -1,0 +1,14 @@
+<aura:component access="global" implements="force:hasRecordId,flexipage:availableForAllPageTypes" controller="KPI_SecondChart">
+    <aura:attribute name="chartConfiguration" type="String" access="public"></aura:attribute>
+    <aura:attribute name="freqData" type="Object" access="public"></aura:attribute>
+    <aura:attribute name="auxRecordId" type="String" access="public"></aura:attribute>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>
+    <div style="padding: 5%;" class="slds-card">
+        <aura:if isTrue="{!v.chartConfiguration}">
+            <chgn:Chart_Generator JSON_Chart="{!v.chartConfiguration}"></chgn:Chart_Generator>
+            <aura:set attribute="else">
+                {!$Label.eext.No_data}
+            </aura:set>
+        </aura:if>
+    </div>
+</aura:component>

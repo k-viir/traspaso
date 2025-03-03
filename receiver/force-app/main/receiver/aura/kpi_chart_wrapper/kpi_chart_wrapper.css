@@ -1,0 +1,15 @@
+.THIS .componentWrapper {
+  width: 300%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.5s ease-in-out;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+
+.THIS .visible {
+  overflow: hidden;
+  width: 100%;
+}
