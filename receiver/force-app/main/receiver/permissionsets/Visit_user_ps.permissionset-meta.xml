@@ -62,4 +62,8 @@
         <tab>Visits</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>Org_naming__mdt</name>
+    </customMetadataTypeAccesses>
 </PermissionSet>
